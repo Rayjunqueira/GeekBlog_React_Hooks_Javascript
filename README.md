@@ -1,70 +1,71 @@
-# Getting Started with Create React App
+# Projeto Portal de Notícias GEEK Frontend completo React & Javascript || https://frontend-react-geek-mug-b-log.vercel.app
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+![gifgeek](https://user-images.githubusercontent.com/99502194/211380178-550916eb-6caf-4727-9baf-9d7e88a77fa5.gif)
 
-## Available Scripts
+# Versão Mobile
 
-In the project directory, you can run:
+![gifgeekmobile](https://user-images.githubusercontent.com/99502194/211380432-544461d8-2fb0-4613-9f43-702f9e25fb38.gif)
 
-### `npm start`
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+# Sobre o projeto
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+Projeto frontend de um portal de notícias Geek consumindo uma API desenvolvido em React/Javascript, React-Hooks e estilizado em Styled-Components.
+Inclui algumas features como:
 
-### `npm test`
+- Possibilidade do usuário buscar notícias por links de categorias.
+- Possibilidade do usuário buscar notícias relacionadas a alguma palavra chave em input.
+- Layout responsivo podendo ser utilizada em celulares e tablets.
+- Navbar responsiva com menu Burger.
+- Desenvolvido 100% em styled-components.
+- Utilização de Hooks e Axios para busca de API.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+# Tecnologias
 
-### `npm run build`
+ ◼ React Hooks</p>
+ ◼ Axios</p>
+ ◼ React-Router-Dom</p>
+ ◼ Styled-Components</p>
+ ◼ Layout responsivo</p>
+ ◼ API Real</p
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+ # Configurando uma API Real a aplicação
+ 
+ Crie uma pasta .env na raíz do seu projeto com 
+ 
+ API = *link api*
+ 
+ ou rode uma API diretamente do Hook de useApi. (src/hooks/useApi.js)
+ 
+ ```
+ const api = axios.create({
+    baseURL: "linkdesuaapi"
+});
+ ```
+ 
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+ # Rodando aplicação na sua máquina
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+1 - Clone o repositório
 
-### `npm run eject`
+    git clone https://github.com/Routfin/GeekBlog_React_Hooks_Javascript.git
+    
+2 - Instal os pacotes NPM
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+    npm install 
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+4 - Rodar aplicação
+    
+    npm start
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+## Contribua com o projeto
 
-## Learn More
+1 - Crie um fork do projeto.
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+2 - git remote add origin urlDoRepositórioDoProjeto.
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+3 - Faça commits para aprimorar o projeto.
 
-### Code Splitting
+4 - Faça push dessa branch para seu projeto no GitHub.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+5 - Abra um Pull Request
